@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JSHttpToolKit_Tests' do
+  pod 'JSHttpToolKit', :path => '../'
+  
+  
+end
