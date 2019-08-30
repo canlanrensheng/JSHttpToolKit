@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36FCDA41F91E8C85DFEF98D74EEA6B5F /* JSHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E12FF62F75102E07E100328042C0D7 /* JSHttpTool.m */; };
+		46698868B5D52594C3030AA6AF251657 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4E4E746BFA1A16C2DBCEF4EB975B50F9 /* Pods-JSHttpToolKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 508483B94F90B972350F070C5A17A180 /* Pods-JSHttpToolKit_Tests-dummy.m */; };
+		812C964B164ECD1FA5F9FA78F5BD22DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BAFB736B20BF4685FC24742766BF835A /* JSHttpTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CE7A1ECF24C69FD8701F3AF82F4DA2 /* JSHttpTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1EA9992D71B399EB1C33FB2DABC5A28 /* JSHttpToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E02C6A9F899F841D97FF19BC9E1F0BE /* JSHttpToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB5D42D4DB8B715D5C8278842B882D7F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B30DA04CBF3ADDA364E27B70B3FEF2CB /* ReplaceMe.m */; };
+		EC54F0F7DCE15FFE5500E89226CED345 /* Pods-JSHttpToolKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB2CD440C15B809ABF59BA9B7D4BB64E /* Pods-JSHttpToolKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFA7FE529C55A0F3F072400A05111880 /* JSHttpToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 346F3416C6C696BC78E64EB86F8100AE /* JSHttpToolKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		866BB89BA6B038996DA32FF133E92159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAB1871792A5D8D12D89B5D81813206;
+			remoteInfo = JSHttpToolKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BAA09DFAE818F356E980D54123A3848 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		346F3416C6C696BC78E64EB86F8100AE /* JSHttpToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSHttpToolKit-dummy.m"; sourceTree = "<group>"; };
+		447CFE769D0394B6A34A4FAA19DF5B90 /* Pods-JSHttpToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSHttpToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4CD973B6CAA92AB4C73570F5EFA6333E /* JSHttpToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JSHttpToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		508483B94F90B972350F070C5A17A180 /* Pods-JSHttpToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSHttpToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		551862DB5BB75A5C35F48A6B48E88B0B /* Pods-JSHttpToolKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSHttpToolKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		5BCFA6B54598E8BF707C3B4BCED6CF36 /* Pods-JSHttpToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSHttpToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6814AC48F869B88BDAB35913B2572608 /* Pods_JSHttpToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSHttpToolKit_Tests.framework; path = "Pods-JSHttpToolKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79703B3E0BD1DAAA427202E4E0D7127D /* Pods-JSHttpToolKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSHttpToolKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F6AC71CA3BCD3D23FF35FD1DEF273DD /* JSHttpToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSHttpToolKit.framework; path = JSHttpToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FA44AF8BD10459246774FFAF3B5092 /* Pods-JSHttpToolKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSHttpToolKit_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E02C6A9F899F841D97FF19BC9E1F0BE /* JSHttpToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSHttpToolKit-umbrella.h"; sourceTree = "<group>"; };
+		A9E12FF62F75102E07E100328042C0D7 /* JSHttpTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSHttpTool.m; path = JSHttpToolKit/Classes/JSHttpTool.m; sourceTree = "<group>"; };
+		B29AD03233129008A4E4386A57EBEF29 /* JSHttpToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSHttpToolKit.xcconfig; sourceTree = "<group>"; };
+		B30DA04CBF3ADDA364E27B70B3FEF2CB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JSHttpToolKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		BB2CD440C15B809ABF59BA9B7D4BB64E /* Pods-JSHttpToolKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSHttpToolKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C1C67ABFDD40E570B48ED1BCC72D7A39 /* JSHttpToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSHttpToolKit-Info.plist"; sourceTree = "<group>"; };
+		C1D93AA2FA4D2909A44670FB90A6ACCF /* Pods-JSHttpToolKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSHttpToolKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C703F92B703F02BE54DAFEE45B7F37FB /* JSHttpToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSHttpToolKit-prefix.pch"; sourceTree = "<group>"; };
+		D1CE7A1ECF24C69FD8701F3AF82F4DA2 /* JSHttpTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSHttpTool.h; path = JSHttpToolKit/Classes/JSHttpTool.h; sourceTree = "<group>"; };
+		E710AF620CE0D092A9A0A3FAF82C82B6 /* Pods-JSHttpToolKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSHttpToolKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA2F07262E7A64B4878443B7ECEA5451 /* JSHttpToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSHttpToolKit.modulemap; sourceTree = "<group>"; };
+		FBAE1A2232BA66C54F5928A09B89084C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013AE409F47367F8E8030DDDCB7C2585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812C964B164ECD1FA5F9FA78F5BD22DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D467A67B4CBE21A723D2C16C57FAA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46698868B5D52594C3030AA6AF251657 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056CEC62627D4181F2AF3E437F0B8857 /* Pods-JSHttpToolKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				88FA44AF8BD10459246774FFAF3B5092 /* Pods-JSHttpToolKit_Tests.modulemap */,
+				79703B3E0BD1DAAA427202E4E0D7127D /* Pods-JSHttpToolKit_Tests-acknowledgements.markdown */,
+				E710AF620CE0D092A9A0A3FAF82C82B6 /* Pods-JSHttpToolKit_Tests-acknowledgements.plist */,
+				508483B94F90B972350F070C5A17A180 /* Pods-JSHttpToolKit_Tests-dummy.m */,
+				C1D93AA2FA4D2909A44670FB90A6ACCF /* Pods-JSHttpToolKit_Tests-frameworks.sh */,
+				551862DB5BB75A5C35F48A6B48E88B0B /* Pods-JSHttpToolKit_Tests-Info.plist */,
+				BB2CD440C15B809ABF59BA9B7D4BB64E /* Pods-JSHttpToolKit_Tests-umbrella.h */,
+				5BCFA6B54598E8BF707C3B4BCED6CF36 /* Pods-JSHttpToolKit_Tests.debug.xcconfig */,
+				447CFE769D0394B6A34A4FAA19DF5B90 /* Pods-JSHttpToolKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-JSHttpToolKit_Tests";
+			path = "Target Support Files/Pods-JSHttpToolKit_Tests";
+			sourceTree = "<group>";
+		};
+		37A6F0F0CF804AD05ECA0F47B06E4424 /* JSHttpToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				D1CE7A1ECF24C69FD8701F3AF82F4DA2 /* JSHttpTool.h */,
+				A9E12FF62F75102E07E100328042C0D7 /* JSHttpTool.m */,
+				B30DA04CBF3ADDA364E27B70B3FEF2CB /* ReplaceMe.m */,
+				E9F6AA8A310921AF88F3237B105C6DB3 /* Pod */,
+				DD6769844A287D37E125BF8ADBB83A5C /* Support Files */,
+			);
+			name = JSHttpToolKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7A4D7366C68B3BDE00BB60C1D1EBEF0A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37A6F0F0CF804AD05ECA0F47B06E4424 /* JSHttpToolKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7A4D7366C68B3BDE00BB60C1D1EBEF0A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F2F77E510BB087E1A20A83B291A1FF86 /* Products */,
+				F315E9CE08443AD37B418C50C709BAA5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD6769844A287D37E125BF8ADBB83A5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA2F07262E7A64B4878443B7ECEA5451 /* JSHttpToolKit.modulemap */,
+				B29AD03233129008A4E4386A57EBEF29 /* JSHttpToolKit.xcconfig */,
+				346F3416C6C696BC78E64EB86F8100AE /* JSHttpToolKit-dummy.m */,
+				C1C67ABFDD40E570B48ED1BCC72D7A39 /* JSHttpToolKit-Info.plist */,
+				C703F92B703F02BE54DAFEE45B7F37FB /* JSHttpToolKit-prefix.pch */,
+				9E02C6A9F899F841D97FF19BC9E1F0BE /* JSHttpToolKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JSHttpToolKit";
+			sourceTree = "<group>";
+		};
+		E9F6AA8A310921AF88F3237B105C6DB3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4CD973B6CAA92AB4C73570F5EFA6333E /* JSHttpToolKit.podspec */,
+				2BAA09DFAE818F356E980D54123A3848 /* LICENSE */,
+				FBAE1A2232BA66C54F5928A09B89084C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F2F77E510BB087E1A20A83B291A1FF86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F6AC71CA3BCD3D23FF35FD1DEF273DD /* JSHttpToolKit.framework */,
+				6814AC48F869B88BDAB35913B2572608 /* Pods_JSHttpToolKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F315E9CE08443AD37B418C50C709BAA5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				056CEC62627D4181F2AF3E437F0B8857 /* Pods-JSHttpToolKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5BE9A7547801DF190844F8059B5DE652 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54F0F7DCE15FFE5500E89226CED345 /* Pods-JSHttpToolKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C3A26290A12B44906244A6170B568A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFB736B20BF4685FC24742766BF835A /* JSHttpTool.h in Headers */,
+				E1EA9992D71B399EB1C33FB2DABC5A28 /* JSHttpToolKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		350EC89E0AFFF8BC0C69D4F7748CF7E4 /* Pods-JSHttpToolKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871939C65CE3186892EC5257351014C8 /* Build configuration list for PBXNativeTarget "Pods-JSHttpToolKit_Tests" */;
+			buildPhases = (
+				5BE9A7547801DF190844F8059B5DE652 /* Headers */,
+				D98C4304C694C6CF8234161102736BF6 /* Sources */,
+				89D467A67B4CBE21A723D2C16C57FAA7 /* Frameworks */,
+				5117C609BDA00042A7C2D69323A95C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15E64A4342798F73BC0A7523046F7E8C /* PBXTargetDependency */,
+			);
+			name = "Pods-JSHttpToolKit_Tests";
+			productName = "Pods-JSHttpToolKit_Tests";
+			productReference = 6814AC48F869B88BDAB35913B2572608 /* Pods_JSHttpToolKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDAB1871792A5D8D12D89B5D81813206 /* JSHttpToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692D92D1C095ABCB11318923C6B091F9 /* Build configuration list for PBXNativeTarget "JSHttpToolKit" */;
+			buildPhases = (
+				E7C3A26290A12B44906244A6170B568A /* Headers */,
+				F82533E5C6FBECD20163DFC6EFEFDD66 /* Sources */,
+				013AE409F47367F8E8030DDDCB7C2585 /* Frameworks */,
+				BB22EAD575808627639412735BC18EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSHttpToolKit;
+			productName = JSHttpToolKit;
+			productReference = 7F6AC71CA3BCD3D23FF35FD1DEF273DD /* JSHttpToolKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F2F77E510BB087E1A20A83B291A1FF86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDAB1871792A5D8D12D89B5D81813206 /* JSHttpToolKit */,
+				350EC89E0AFFF8BC0C69D4F7748CF7E4 /* Pods-JSHttpToolKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5117C609BDA00042A7C2D69323A95C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB22EAD575808627639412735BC18EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D98C4304C694C6CF8234161102736BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4E746BFA1A16C2DBCEF4EB975B50F9 /* Pods-JSHttpToolKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82533E5C6FBECD20163DFC6EFEFDD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FCDA41F91E8C85DFEF98D74EEA6B5F /* JSHttpTool.m in Sources */,
+				EFA7FE529C55A0F3F072400A05111880 /* JSHttpToolKit-dummy.m in Sources */,
+				EB5D42D4DB8B715D5C8278842B882D7F /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15E64A4342798F73BC0A7523046F7E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSHttpToolKit;
+			target = CDAB1871792A5D8D12D89B5D81813206 /* JSHttpToolKit */;
+			targetProxy = 866BB89BA6B038996DA32FF133E92159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63541712378A0083D0234F17C0A4A7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BCFA6B54598E8BF707C3B4BCED6CF36 /* Pods-JSHttpToolKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSHttpToolKit_Tests/Pods-JSHttpToolKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSHttpToolKit_Tests/Pods-JSHttpToolKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9653FA090A6D315B8B8FA1A64E7EB74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447CFE769D0394B6A34A4FAA19DF5B90 /* Pods-JSHttpToolKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSHttpToolKit_Tests/Pods-JSHttpToolKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSHttpToolKit_Tests/Pods-JSHttpToolKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D06120D7D53E5A8CFEC4252E91CF4F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29AD03233129008A4E4386A57EBEF29 /* JSHttpToolKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSHttpToolKit/JSHttpToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSHttpToolKit/JSHttpToolKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSHttpToolKit/JSHttpToolKit.modulemap";
+				PRODUCT_MODULE_NAME = JSHttpToolKit;
+				PRODUCT_NAME = JSHttpToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F846325324C954D91DEF286CEA7FEF37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29AD03233129008A4E4386A57EBEF29 /* JSHttpToolKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSHttpToolKit/JSHttpToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSHttpToolKit/JSHttpToolKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSHttpToolKit/JSHttpToolKit.modulemap";
+				PRODUCT_MODULE_NAME = JSHttpToolKit;
+				PRODUCT_NAME = JSHttpToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		692D92D1C095ABCB11318923C6B091F9 /* Build configuration list for PBXNativeTarget "JSHttpToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06120D7D53E5A8CFEC4252E91CF4F6F /* Debug */,
+				F846325324C954D91DEF286CEA7FEF37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871939C65CE3186892EC5257351014C8 /* Build configuration list for PBXNativeTarget "Pods-JSHttpToolKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63541712378A0083D0234F17C0A4A7C0 /* Debug */,
+				9653FA090A6D315B8B8FA1A64E7EB74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

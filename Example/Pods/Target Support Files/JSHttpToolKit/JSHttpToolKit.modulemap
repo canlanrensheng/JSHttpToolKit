@@ -1,0 +1,6 @@
+framework module JSHttpToolKit {
+  umbrella header "JSHttpToolKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - JSHttpToolKit (0.1.0)
+
+DEPENDENCIES:
+  - JSHttpToolKit (from `../`)
+
+EXTERNAL SOURCES:
+  JSHttpToolKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSHttpToolKit: 80d6bbec92d68ee7a0ff4433bec2be82a26ee9b4
+
+PODFILE CHECKSUM: c117c34f59de16c7fcbc4234ae02cfa24cdd8a10
+
+COCOAPODS: 1.8.0.beta.2
