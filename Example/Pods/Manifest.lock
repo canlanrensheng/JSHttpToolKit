@@ -1,5 +1,5 @@
 PODS:
-  - JSHttpToolKit (0.1.0)
+  - JSHttpToolKit (1.0.0)
 
 DEPENDENCIES:
   - JSHttpToolKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JSHttpToolKit: 80d6bbec92d68ee7a0ff4433bec2be82a26ee9b4
+  JSHttpToolKit: eeacd4aefcbbc65aee3227c12577769a5ab3b2b4
 
 PODFILE CHECKSUM: c117c34f59de16c7fcbc4234ae02cfa24cdd8a10
 

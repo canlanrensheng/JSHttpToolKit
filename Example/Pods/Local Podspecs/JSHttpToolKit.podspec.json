@@ -18,10 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JSHttpToolKit/Classes/**/*",
-  "dependencies": {
-    "AFNetworking": [
-      "~> 2.3"
-    ]
-  }
+  "source_files": "JSHttpToolKit/Classes/**/*"
 }
